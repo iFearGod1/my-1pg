@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>El Jefe</title>
+
+  <!-- Favicons (IMPORTANT: these are web paths, not C:\ paths) -->
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="assets/favicon/favicon.svg" />
+  <link rel="shortcut icon" href="assets/favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/favicon/site.webmanifest" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top nav -->
+  <header class="topbar">
+    <div class="topbar-inner">
+      <a class="brand" href="#top">El Jefe</a>
+
+      <nav class="nav">
+        <a href="#projects">Projects</a>
+        <a href="#empower">Empower</a>
+        <a href="#stress">Stress</a>
+        <a href="#nutrition">Nutrition</a>
+        <a href="#time">Time</a>
+      </nav>
+
+      <a class="cta" href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="top">
+    <section class="hero">
+      <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+        <source src="assets/hero.mp4" type="video/mp4" />
+      </video>
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content">
+        <h1 class="hero-title">Building &amp; learning modern websites — one project at a time.</h1>
+        <p class="hero-subtitle">A clean, premium layout—built in pure HTML/CSS/JS.</p>
+        <a class="hero-button" href="#projects">See what I’m building ↓</a>
+      </div>
+
+      <div class="hero-wave"></div>
+    </section>
+
+    <!-- PROJECTS CARDS -->
+    <section id="projects" class="section section-soft">
+      <div class="container">
+        <h2 class="section-title center">Projects</h2>
+
+        <div class="cards">
+          <!-- Time -->
+          <article class="card" style="--card-img:url('assets/time.jpg')">
+            <div class="card-overlay"></div>
+            <div class="card-body">
+              <h3>Time Management<br/>Strategies</h3>
+              <p>Enhance clarity and focus through structured planning.</p>
+              <a class="btn" href="#time-detail">More info</a>
+            </div>
+          </article>
+
+          <!-- Nutrition -->
+          <article class="card" style="--card-img:url('assets/nutrition.jpg')">
+            <div class="card-overlay"></div>
+            <div class="card-body">
+              <h3>Nutrition 101</h3>
+              <p>Personalized coaching focused on real habits.</p>
+              <a class="btn" href="#nutrition">More info</a>
+            </div>
+          </article>
+
+          <!-- Stress -->
+          <article class="card" style="--card-img:url('assets/stress.jpg')">
+            <div class="card-overlay"></div>
+            <div class="card-body">
+              <h3>Stress Management<br/>Techniques</h3>
+              <p>Simple resets to regain control and calm.</p>
+              <a class="btn" href="#stress">More info</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMPOWER (image left + image right w/ angled border look) -->
+    <section id="empower" class="section section-split">
+      <div class="container split">
+        <div class="panel panel-left">
+          <span class="kicker">Endless Growth</span>
+          <h2 class="panel-title">Empowering Growth, One Step at a Time</h2>
+          <p class="panel-text">
+            Rather than waiting until everything is perfect, I’m shipping projects as I learn —
+            improving layout, structure, and clarity with each version.
+          </p>
+        </div>
+
+        <div class="panel panel-right">
+          <div class="media-frame">
+            <img src="assets/empower.jpg" alt="Empowering growth" />
+            <div class="media-glow"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STRESS (BIG MULTI-COLUMN like your screenshot) -->
+    <section id="stress" class="section section-stress">
+      <div class="container">
+        <span class="kicker dark">Endless Growth</span>
+        <h2 class="mega-title">Stress Management: 60-Second Reset</h2>
+        <p class="lead">
+          A quick reset you can do anywhere. No equipment. Just a calm way to lower intensity and regain focus.
+        </p>
+
+        <div class="stress-grid">
+          <!-- Column 1 -->
+          <div class="stress-col">
+            <h3 class="stress-h3">Start:</h3>
+            <ul class="stress-list">
+              <li>
+                <strong>1) Breathe (20s)</strong><br />
+                Inhale through your nose for 4 seconds.<br />
+                Exhale slowly for 6 seconds. Repeat.
+              </li>
+              <li>
+                <strong>2) Release (20s)</strong><br />
+                Drop your shoulders. Unclench your jaw.<br />
+                Relax your hands. Let your breath stay slow.
+              </li>
+              <li>
+                <strong>3) Re-focus (20s)</strong><br />
+                Pick ONE task. Say: “Next, I do ____.”<br />
+                Then start for just 2 minutes.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Column 2 -->
+          <div class="stress-col">
+            <h3 class="stress-h3">Why does slower exhale help?</h3>
+            <ul class="stress-bullets">
+              <li>Longer exhales can activate the parasympathetic (“calm”) response and reduce stress intensity.</li>
+            </ul>
+          </div>
+
+          <!-- Column 3 -->
+          <div class="stress-col">
+            <h3 class="stress-h3">What if I’m anxious and can’t slow down?</h3>
+            <ul class="stress-bullets">
+              <li>Start smaller: inhale 3 seconds, exhale 4 seconds.</li>
+              <li>The goal is steadier breathing, not perfection.</li>
+            </ul>
+          </div>
+
+          <!-- Column 4 -->
+          <div class="stress-col">
+            <h3 class="stress-h3">Best habits to reduce stress long-term?</h3>
+            <ul class="stress-bullets">
+              <li>Sleep consistency, daily movement, hydration, sunlight, and limiting constant notifications.</li>
+              <li>Small wins beat big resets.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="stress-bottom">
+          <h3 class="stress-h3">A quick “reset list” I can follow daily?</h3>
+          <ul class="stress-bullets">
+            <li>Water + 5 minutes walking + 1 deep breathing set + single-task for 10 minutes.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- NUTRITION (accordion YES) -->
+    <section id="nutrition" class="section section-nutrition">
+      <div class="container">
+        <h2 class="mega-title center">Nutrition: Fuel for Training &amp; Recovery</h2>
+
+        <p class="pill-note">
+          Nutrition plays a foundational role in energy, recovery, and long-term performance.
+          Below are simple, evidence-based choices that support training without overcomplicating it.
+        </p>
+
+        <h3 class="faq-title">Discover More in Our FAQs</h3>
+
+        <div class="accordion" data-accordion>
+          <button class="acc-item" type="button" aria-expanded="false">
+            <span>Protein: Why it matters</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="acc-panel">
+            Protein supports muscle repair, recovery, and satiety. Aim for a consistent amount across meals.
+          </div>
+
+          <button class="acc-item" type="button" aria-expanded="false">
+            <span>Carbohydrates: Fuel for workouts</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="acc-panel">
+            Carbs are performance fuel. Favor whole-food sources and adjust based on training volume.
+          </div>
+
+          <button class="acc-item" type="button" aria-expanded="false">
+            <span>Healthy fats: Balance &amp; joint health</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="acc-panel">
+            Healthy fats support hormones and long-term health. Prioritize olive oil, nuts, seeds, avocado, and fatty fish.
+          </div>
+
+          <button class="acc-item" type="button" aria-expanded="false">
+            <span>Hydration: Performance foundation</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="acc-panel">
+            Hydration impacts energy and focus. Build a simple habit: water with every meal + before training.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIME (NO accordion) -->
+    <section id="time" class="section section-time">
+      <div class="container">
+        <h2 class="mega-title center">Time Management: The 90-Minute Focus Block</h2>
+        <p class="lead center">
+          Instead of managing an entire day, focus on managing one high-quality block of time.
+          This system reduces overwhelm and increases follow-through.
+        </p>
+
+        <div id="time-detail" class="time-block">
+          <h3 class="time-subtitle">THE 90-MINUTE BLOCK</h3>
+
+          <div class="time-steps">
+            <div class="time-step">
+              <div class="time-min">10 minutes — Setup</div>
+              <div class="time-desc">Clarify one task. Close distractions. Decide what “done” looks like.</div>
+            </div>
+
+            <div class="time-step">
+              <div class="time-min">60 minutes — Deep Focus</div>
+              <div class="time-desc">Work on one thing only. No switching. No notifications.</div>
+            </div>
+
+            <div class="time-step">
+              <div class="time-min">20 minutes — Shutdown</div>
+              <div class="time-desc">Save progress. Write the next step. Step away.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT / FOOTER -->
+    <section id="contact" class="section section-footer">
+      <div class="container footer-inner">
+        <div>
+          <div class="brand-footer">El Jefe</div>
+          <div class="muted">ボス — clean builds, stronger systems.</div>
+        </div>
+        <div class="muted small">© <span id="year"></span> El Jefe</div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
